@@ -1,0 +1,10 @@
+<p>Home Component</p>
+
+<ejs-treeview
+  #treeObj
+  [fields]="treeFields"
+  cssClass="treeview-external-drag"
+  [allowDragAndDrop]="true"
+  (nodeDragStop)="onTreeDragStop($event)"
+>
+</ejs-treeview>
